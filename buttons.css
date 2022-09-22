@@ -1,0 +1,12 @@
+.buttons {
+  text-decoration: none;
+  font-size: bolder;
+  color: black;
+}
+.buttons:hover {
+  color: #077eff;
+}
+
+ul {
+  list-style: none;
+}
