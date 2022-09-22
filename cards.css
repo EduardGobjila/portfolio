@@ -1,0 +1,14 @@
+.about-me {
+ display: flex;
+ justify-items: center;
+ width: 100vw;
+ align-items: center;
+}
+.my-image {
+  width: 50%;
+  text-align: right;
+}
+.text-about {
+  width: 50%;
+  text-align: left;
+}

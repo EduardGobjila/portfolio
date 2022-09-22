@@ -5,6 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="buttons.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="images.css">
+  <link rel="stylesheet" href="cards.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>Portfolio</title>
 </head>
 <body>
@@ -14,24 +21,34 @@
           <img id="logo" src="https://tse1.mm.bing.net/th?id=OIP.CFmcFYSYDL8RB-GFQEORuAHaE7&pid=Api&P=0" alt="">
           <ul>
             <li>
-            <a href="#"> Home </a>
+             <a href="#" class="buttons"> Home </a>
             </li>
             <li>
-            <a href="#"> About </a>
+              <a href="#" class="buttons"> About </a>
             </li>
             <li>
-              <a href="#"> Contact </a>
+              <a href="#" class="buttons"> Contact </a>
             </li>
-
             <li>
-              <a href="#"> Work </a>
+              <a href="#" class="buttons"> Work </a>
+            </li>
+            <li>
+              <a href="#" class="buttons"> Why Me? </a>
             </li>
           </ul>
       </nav>
     </div> <!-- end of the nav div -->
 
-
-    <h1>Eduard's Portfolio</h1>
+    <div class="about-me">
+      <div class="my-image">
+       <img  id="image-me" src="eduardo.jpg" alt="">
+      </div>
+      <div class="text-about">
+        <h1>Hi I'm Eduard</h1>
+        <p>I am a Full-Stack Web Developer</p>
+        <p id="typing"></p>
+      </div>
+    </div>
   </div>  <!-- End of the wrapper -->
     <script src="landing.js"></script>
 </body>
