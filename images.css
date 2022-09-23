@@ -5,3 +5,13 @@
   object-fit: cover;
   margin-right: 40px;
 }
+
+#calculator {
+ width: 60%;
+ height: 100%;
+ float: right;
+ border-top-right-radius: 12px;
+ border-bottom-right-radius: 12px;
+ object-fit: cover;
+ image-rendering: pixelated;
+}

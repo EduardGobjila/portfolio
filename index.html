@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono:ital@1&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>Portfolio</title>
 </head>
 <body>
@@ -46,9 +48,62 @@
       <div class="text-about">
         <h1>Hi I'm Eduard</h1>
         <p>I am a Full-Stack Web Developer</p>
-        <p id="typing"></p>
+        <p>
+          <span class="typer" id="main" data-words="You should hire me for your next success,
+          I can turn your usual visitors into customers" data-delay="60" data-deleteDelay="800" data-colors="#077eff"></span>
+          <span class="cursor" data-owner="main"></span>
+        </p>
+        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
       </div>
     </div>
+    <div class="projects">
+      <h1>Projects</h1>
+      <div class="cards calculator">
+        <div class="info">
+          <h3>Calculator</h3>
+          <div>
+            <p>Simple maths calculator build with JavaScript.</p>
+            <p><strong>Stack: JavaScript</strong></p>
+          </div>
+          <div class="btn">
+            <a href="https://dashing-froyo-f4b386.netlify.app/" target="_blank">Website</a>
+            <a href="https://github.com/EduardGobjila/calculator" target="_blank">Code</a>
+          </div>
+        </div>
+        <img id="calculator" src="portfolioo/calculator.jpg" alt="Vanilla Javascript Calculator" target="Vanilla JavaScript Calculator">
+      </div>
+
+      <div class="cards muvi">
+        <div class="info">
+          <h3>Movie API</h3>
+          <div>
+            <p>Used an API to fetch movies from IMDB. <br> Also you can search your favourite movie or just by category</p>
+            <p><strong>Stack: JavaScript</strong></p>
+          </div>
+          <div class="btn">
+            <a href="www.muviii.art" target="_blank">Website</a>
+            <a href="https://github.com/EduardGobjila/practice-on-own" target="_blank">Code</a>
+          </div>
+        </div>
+        <img id="calculator" src="portfolioo/highmuvi.jpg" alt="Fetching Movies" target="Fetching Movies">
+      </div>
+
+      <div class="cards muvi">
+        <div class="info">
+          <h3>E-commerce Website</h3>
+          <div>
+            <p>The project is a clone to the Gumtree Website which a user can sign in, add posts, or as an admin remove posts.<br></p>
+            <p><strong>Stack: Ruby on Rails</strong>, <strong>Javascript</strong></p>
+          </div>
+          <div class="btn">
+            <a href="https://gumtree-project.herokuapp.com/" target="_blank">Website</a>
+            <a href="https://github.com/EduardGobjila/GUMTREE_PROJECT" target="_blank">Code</a>
+          </div>
+        </div>
+        <img id="calculator" src="portfolioo/gumtree.jpg" alt="Fetching Movies" target="Fetching Movies">
+      </div>
+
+    </div> <!-- End of the projects div -->
   </div>  <!-- End of the wrapper -->
     <script src="landing.js"></script>
 </body>

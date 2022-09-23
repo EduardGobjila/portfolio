@@ -2,6 +2,7 @@
  display: flex;
  justify-items: center;
  width: 100vw;
+ height: 500px;
  align-items: center;
 }
 .my-image {
@@ -11,4 +12,32 @@
 .text-about {
   width: 50%;
   text-align: left;
+}
+.cards h1,
+.cards p {
+  color: black;
+}
+.info {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+.cards {
+  transition: .4s ease-in-out;
+  background-color: white;
+  width: 50%;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 12px;
+  display: flex;
+  border: 2px solid gray;
+}
+.cards:hover {
+  transform: scale(1.1);
+}
+.projects {
+  text-align: center;
+}
+.projects h1 {
+  margin-bottom: 30px;
 }

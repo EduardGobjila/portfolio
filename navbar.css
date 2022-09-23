@@ -21,4 +21,9 @@ li {
 nav {
   margin-top: 15px;
   background-color: rgb(236, 236, 236);
+  /* background-color: black; */
+  z-index: 1;
+  position: fixed;
+  top: -20px;
+  width: 100%;
 }
