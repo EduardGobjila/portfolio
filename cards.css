@@ -21,11 +21,12 @@
   width: 50%;
   text-align: center;
   position: relative;
+  padding: 20px;
 }
 .cards {
   transition: .4s ease-in-out;
   background-color: white;
-  width: 50%;
+  width: 40%;
   height: 400px;
   margin: 50px auto;
   border-radius: 12px;
@@ -40,4 +41,33 @@
 }
 .projects h1 {
   margin-bottom: 30px;
+}
+.body {
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about {
+  margin-top: 100px;
+}
+.body h1 {
+  color: white;
+  padding: 40px;
+}
+.why-me {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skill-set {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.image {
+  width: 300px;
+  margin: 0 auto;
 }

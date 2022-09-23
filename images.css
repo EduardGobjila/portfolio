@@ -7,11 +7,16 @@
 }
 
 #calculator {
- width: 60%;
+ width: 50%;
  height: 100%;
  float: right;
  border-top-right-radius: 12px;
  border-bottom-right-radius: 12px;
  object-fit: cover;
  image-rendering: pixelated;
+}
+#trophy {
+  height: 40%;
+  width: 100%;
+  border-radius: 20px;
 }

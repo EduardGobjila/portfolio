@@ -2,6 +2,7 @@
   font-family: 'Kanit', sans-serif;
 }
 
+
 .about-me {
   text-align: center;
   height: 100vh;
@@ -9,6 +10,7 @@
 }
 :root {
   background-color: #2a3132;
+  width: 100vw;
 }
 h1,
 p {
