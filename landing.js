@@ -1,15 +1,19 @@
-// let i = 0;
-// let sentece = 'You should hire me for your next success';
-// let sentence = 'I can turn your usual visitors into customers';
-// let speed = 60;
 
-// function typo() {
-//    let text = document.getElementById('typing')
-//   if (i < sentece.length) {
-//    text.innerHTML += sentece.charAt(i);
-//     i++;
-//     // setTimeout(typo, speed);
-//   }
-//   setTimeout(typo, speed);
-// }
-// typo()
+let CountButtonHomeClicks = 0
+ var links = document.getElementById("three-lines");
+ links.addEventListener('click', event => {
+   let link = document.getElementById('links')
+   CountButtonHomeClicks += 1
+   if (CountButtonHomeClicks % 2 == 0) {
+    link.style.display = 'block'
+    let bars = document.getElementsByClassName('fa-bars')
+    bars = ''
+    console.log(bars)
+   } else {
+    link.style.display = 'none'
+   }
+
+})
+
+
+{/* <i class="fa-solid fa-x"></i> */}

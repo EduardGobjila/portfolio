@@ -18,11 +18,47 @@ nav li {
   height: 40px;
   line-height: 60px;
 }
+#links {
+  display: none;
+}
+
 nav {
   margin-top: 15px;
-  background-color: rgb(236, 236, 236);
+  background-color: white;
   z-index: 1;
   position: fixed;
   top: -20px;
   width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  .icon {
+    display: none;
+  }
+
+  #three-lines {
+    font-size: 27px;
+    margin-top: 8px;
+    margin-right: 12px;
+  }
+
+  #links {
+    font-size: 10px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  #links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .active {
+    display: none;
+  }
+
 }

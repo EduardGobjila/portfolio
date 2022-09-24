@@ -16,6 +16,9 @@ h1,
 p {
   color: white;
 }
+.wrapper {
+  width: 100vw;
+}
 
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Space Mono', monospace; */

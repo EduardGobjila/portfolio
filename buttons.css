@@ -28,3 +28,14 @@ ul {
 .btn a:hover {
   background-color: #d5e4f5;
 }
+.why a {
+  color: #077eff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  /* transition: .3s ease-in-out; */
+}
+.why a:hover {
+  background-color: #adcdf0;
+}
