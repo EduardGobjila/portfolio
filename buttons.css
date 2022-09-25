@@ -39,3 +39,8 @@ ul {
 .why a:hover {
   background-color: #adcdf0;
 }
+@media screen and (max-width: 540px) {
+  .btn a {
+    padding: 4px;
+  }
+}

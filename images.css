@@ -5,6 +5,9 @@
   object-fit: cover;
   margin-right: 40px;
 }
+#sver {
+  object-position: -220px;
+}
 
 #calculator {
  width: 50%;
@@ -19,4 +22,24 @@
   height: 40%;
   width: 100%;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  #calculator {
+    width: 50%;
+  }
+  /* .sver {
+    object-position: -120px;
+    width: 36%;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  } */
+}
+
+@media screen and (min-width: 641px) {
+
+  .sver {
+    object-position: -220px;
+  }
 }

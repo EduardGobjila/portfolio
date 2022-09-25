@@ -76,7 +76,81 @@
 }
 .why {
   margin-top: 100px;
-  margin-left: 100px;
-  left: 82%;
+  /* margin-left: 100px; */
+  left: 92%;
+  width: 100px;
   position: fixed;
 }
+
+@media screen and (max-width: 640px) {
+  .my-image {
+    text-align: left;
+    margin-left: 15px;
+  }
+  .text-about {
+    text-align: left;
+    font-size: 10px;
+    height: 50px;
+    margin-top: -10px;
+  }
+  .text-about h1 {
+    font-size: 24px;
+  }
+  #main {
+    font-size: 8px;
+  }
+  .about-me {
+    height: 340px;
+  }
+
+  .cards {
+    transition: .4s ease-in-out;
+    background-color: white;
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 12px;
+    display: flex;
+    border: 2px solid gray;
+  }
+  .projects {
+    font-size: 10px;
+  }
+  .info {
+    padding: 0px 10px;
+  }
+  .saver {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 399px) {
+  .my-image {
+    text-align: right;
+  }
+  .why {
+    left: 75%;
+  }
+  .text-about {
+    margin-top: -30px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+
+  .cards {
+    width: 80%;
+    height: 400px;
+  }
+
+  .why {
+    margin-left: 70px;
+  }
+}
+
+
+@media screen and (min-width: 780px) {
+  .cards {
+    width: 60%;
+  }
+}\
