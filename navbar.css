@@ -30,13 +30,17 @@ nav {
   top: -20px;
   width: 100%;
 }
+#three-lines {
+  display: none;
+}
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 540px) {
   .icon {
     display: none;
   }
 
   #three-lines {
+    display: inline;
     font-size: 27px;
     margin-top: 8px;
     margin-right: 12px;
@@ -60,5 +64,9 @@ nav {
   .active {
     display: none;
   }
+
+}
+
+@media screen and (max-width: 780px) {
 
 }
