@@ -81,20 +81,23 @@
     transition: .4s ease-in-out;
     background-color: white;
     width: 90%;
-    height: 250px;
+    height: 340px;
     margin: 50px auto;
     border-radius: 12px;
     display: flex;
     border: 2px solid gray;
   }
   .projects {
-    font-size: 12px;
+    font-size: 14px;
   }
   .info {
     padding: 0px 10px;
   }
   .saver {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  .saver img {
+    object-position: -220px;
   }
 }
 
