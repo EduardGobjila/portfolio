@@ -30,6 +30,7 @@ ul {
 }
 .why a {
   color: #077eff;
+  cursor: help;
   text-decoration: none;
   padding: 10px;
   border-radius: 20px;
