@@ -21,4 +21,22 @@ let CountButtonHomeClicks = 1
 })
 
 
-{/* <i class="fa-solid fa-x"></i> */}
+// $("button").click(function(){
+//   $("div").animate({left: '250px'});
+// });
+
+//  let cards = document.getElementsByClassName('cards')
+
+window.addEventListener('scroll', () => {
+  const height = document.documentElement.scrollHeight - window.innerHeight
+  const scrolled = window.scrollY;
+  const backToTop = document.getElementById('back')
+
+  console.log(Math.ceil(scrolled))
+  if(Math.ceil(scrolled) > height - 100) {
+     backToTop.style.backgroundColor ='#1597BB'
+     console.log('true')
+    } else {
+      backToTop.style.backgroundColor = null
+    }
+ })

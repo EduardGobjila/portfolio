@@ -1,6 +1,9 @@
 * {
   font-family: 'Kanit', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 .about-me {
