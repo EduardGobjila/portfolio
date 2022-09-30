@@ -21,12 +21,6 @@ let CountButtonHomeClicks = 1
 })
 
 
-// $("button").click(function(){
-//   $("div").animate({left: '250px'});
-// });
-
-//  let cards = document.getElementsByClassName('cards')
-
 window.addEventListener('scroll', () => {
   const height = document.documentElement.scrollHeight - window.innerHeight
   const scrolled = window.scrollY;
@@ -39,4 +33,33 @@ window.addEventListener('scroll', () => {
     } else {
       backToTop.style.backgroundColor = null
     }
+ })
+
+
+ const faders = document.querySelectorAll('.fade-in')
+ const cards = document.querySelectorAll('.cards')
+
+ const appearOptions = {
+   threshold: 0,
+   rootMargin: "0px 0px -300px 0px"
+ }
+
+ const appearOnScroll = new IntersectionObserver
+ (function(entries, appearOnScroll) {
+   entries.forEach(entry => {
+    if(!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add('appear');
+      appearOnScroll.unobserve(entry.target)
+    }
+   })
+ }, appearOptions)
+
+ faders.forEach(fader => {
+  appearOnScroll.observe(fader)
+ })
+
+ cards.forEach(card => {
+  appearOnScroll.observe(card)
  })

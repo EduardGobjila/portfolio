@@ -26,6 +26,10 @@
   padding: 20px;
 }
 .cards {
+  transition: transform 400ms ease-in;
+  opacity: 0;
+}
+.cards {
   transition: .4s ease-in-out;
   background-color: white;
   width: 40%;
@@ -34,10 +38,23 @@
   border-radius: 12px;
   display: flex;
   border: 2px solid gray;
+  transform: translateX(-90%);
 }
-.cards:hover {
+
+.cards.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms;
+}
+.fade-in.appear {
+  opacity: 1;
+}
+/* .cards:hover {
   transform: scale(1.1);
-}
+} */
 .projects {
   text-align: center;
 }

@@ -1,8 +1,9 @@
 * {
   font-family: 'Kanit', sans-serif;
 }
-html {
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
