@@ -86,11 +86,10 @@
         <div class="contact-text">
           <h2 style="color: white">Send Me an Email</h2>
           <p>Want to discuss a project? Or just say Hi?</p>
-          <form action="https://formsubmit.co/edikgobjila01@gmail.com" method="POST">
-            <input class="name" type="text" name="name" placeholder="Sebastian Giorgi"> <br>
-            <input class="email" type="email" name="email" placeholder="sebastian@gmail.com" required> <br>
-            <input type="hidden" name="_next" value="https://www.eduard.live/thanks.html">
-            <input class="message"  type="text" name="message" placeholder="Your Message*" required> <br>
+          <form onsubmit="sendEmail(); reset(); return false">
+            <input class="name" id="name" type="text" name="name" placeholder="Sebastian Giorgi"> <br>
+            <input class="email" id="email" type="email" name="email" placeholder="sebastian@gmail.com" required> <br>
+            <input class="message" id="message" type="text" name="message" placeholder="Your Message*" required> <br>
             <button id="submit" type="submit">Send</button>
        </form>
         </div>
@@ -169,6 +168,24 @@
     </div>
 
   </div>  <!-- End of the wrapper -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "edikgobjila01@gmail.com",
+        Password : "54E2A5F4DBDAC2F70A1E7C71841EECF04034",
+        To : 'edikgobjila01@gmail.com',
+        From: 'edikgobjila01@gmail.com',
+        ReplyTo : document.getElementById('email').value,
+        Subject : document.getElementById('name').value,
+        Body : document.getElementById('message').value
+      }).then(
+        //  message => alert("Sent ")
+        window.location.href = "/thanks.html"
+       );
+    }
+  </script>
     <script src="landing.js"></script>
 </body>
 </html>
