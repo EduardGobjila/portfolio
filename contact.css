@@ -14,7 +14,7 @@
   margin: 40px;
   height: 39px;
   width: 50%;
-  background-color: gray;
+  background-color:  rgb(100, 89, 89);
   border-radius: 9px;
   border: none;
 }
@@ -22,7 +22,7 @@
   height: 39px;
   width: 50%;
   /* margin-bottom: 5px; */
-  background-color: gray;
+  background-color: rgb(100, 89, 89);
   border-radius: 9px;
   border: none;
 }
@@ -30,7 +30,7 @@
   height: 70px;
   width: 50%;
   margin-bottom: 20px;
-  background-color: gray;
+  background-color:  rgb(100, 89, 89);
   border-radius: 9px;
   border: none;
 }
@@ -61,7 +61,7 @@
 .message:focus,
 .name:focus,
 .email:focus {
-  background-color: white;
+  background-color: orange;
 }
 
 @media screen and (max-width: 880px) {
