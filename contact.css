@@ -1,0 +1,103 @@
+.contact-me {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+/* .contact-image {
+  width: 40%;
+} */
+.contact-text {
+  text-align: center;
+  width: 50%;
+}
+.email {
+  margin: 40px;
+  height: 30px;
+  width: 50%;
+  background-color: gray;
+  border-radius: 9px;
+  border: none;
+}
+.name {
+  height: 30px;
+  width: 50%;
+  /* margin-bottom: 5px; */
+  background-color: gray;
+  border-radius: 9px;
+  border: none;
+}
+.message {
+  height: 50px;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: gray;
+  border-radius: 9px;
+  border: none;
+}
+::placeholder {
+  color: white;
+}
+#submit {
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+}
+#submit:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+.contact-image {
+  text-align: end;
+  align-self: center;
+}
+.contact-image img {
+  width: 70%;
+  height: 80%;
+  margin-top: 20px;
+  border-radius: 9px;
+  box-shadow: 1px 5px 5px rgb(82, 82, 82);
+}
+
+@media screen and (max-width: 880px) {
+  .contact-me {
+    display: block;
+  }
+  .contact-image {
+    text-align: center;
+  }
+  .contact-text {
+    text-align: center;
+    width: 100%;
+  }
+  .message,
+  .name,
+  .email {
+    width: 80%;
+    margin: 5px;
+  }
+  #submit {
+    width: 70%;
+    margin-top: 10px;
+  }
+}
+/* @media screen and (max-width: 1100px){
+  .contact-image {
+    text-align: start;
+    /* width: 40%; */
+  }
+  .contact-image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .message,
+  .email,
+  .name {
+    width: 60%;
+  }
+} */
