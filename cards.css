@@ -82,6 +82,18 @@
   border-radius: 20px;
   text-decoration: none;
 }
+.contact-me {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+/* .contact-image {
+  width: 40%;
+} */
+.contact-text {
+  text-align: center;
+  width: 50%;
+}
 
 @media screen and (max-width: 640px) {
   .my-image {

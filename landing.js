@@ -65,7 +65,7 @@ window.addEventListener('scroll', () => {
  }, appearOptions)
 
 
-   //  observe only on the elements of the class fade-in
+  //  observe only on the elements of the class fade-in
  cards.forEach(card => {
   appearOnScroll.observe(card)
  })
