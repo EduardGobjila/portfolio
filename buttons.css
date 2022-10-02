@@ -45,7 +45,6 @@ ul {
   background-color: #077eff;
   transition: opacity 250ms ease-in-out;
   padding: 8px;
-  width: 120px;
   border-radius: 70px;
   border: none;
   opacity: 0;
@@ -53,6 +52,11 @@ ul {
 }
 #back:hover {
  box-shadow: 1px 1px 5px gray;
+}
+.fa-sun {
+  margin-top: 5px;
+  width: 20px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 540px) {

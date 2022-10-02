@@ -34,13 +34,8 @@ nav {
 #three-lines {
   display: none;
 }
-.fa-sun {
-  margin-top: 5px;
-  width: 50px;
-  font-size: 30px;
-}
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 614px) {
   .icon {
     display: none;
   }

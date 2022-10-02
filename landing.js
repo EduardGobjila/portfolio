@@ -73,10 +73,15 @@ window.addEventListener('scroll', () => {
 
 //  changing the background color on click of the icon
 
-// const color = document.getElementById('sun')
-// const html = document.querySelector("html")
-// // console.log(html)
+const color = document.getElementById('sun')
+const html = document.querySelector("html")
+// console.log(html)
 
-// color.addEventListener('click', event => {
-//   html.style.backgroundColor = 'white'
-// })
+color.addEventListener('click', event => {
+  CountButtonHomeClicks += 1
+  if (CountButtonHomeClicks % 2 == 0) {
+    html.style.backgroundColor = '#90afc5'
+  } else {
+    html.style.backgroundColor = null
+  }
+})
