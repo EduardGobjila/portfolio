@@ -42,11 +42,13 @@ ul {
 }
 #back {
   color: white;
-  background-color: #8FD6E1;
+  background-color: #077eff;
+  transition: opacity 250ms ease-in-out;
   padding: 8px;
   width: 120px;
   border-radius: 70px;
   border: none;
+  opacity: 0;
   text-decoration: none;
 }
 #back:hover {

@@ -33,10 +33,10 @@ window.addEventListener('scroll', () => {
 
   //  if scroleed is bigger than height - 100 changes the color of the button
   if(Math.ceil(scrolled) > height - 100) {
-     backToTop.style.backgroundColor ='#077eff'
+     backToTop.style.opacity = '1'
     //  else no color
     } else {
-      backToTop.style.backgroundColor = null
+      backToTop.style.opacity = '0'
     }
  })
 
