@@ -40,6 +40,19 @@ ul {
 .why a:hover {
   background-color: #adcdf0;
 }
+#back {
+  color: white;
+  background-color: #8FD6E1;
+  padding: 8px;
+  width: 120px;
+  border-radius: 70px;
+  border: none;
+  text-decoration: none;
+}
+#back:hover {
+ box-shadow: 1px 1px 5px gray;
+}
+
 @media screen and (max-width: 540px) {
   .btn a {
     padding: 4px;
