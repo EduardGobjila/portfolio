@@ -76,6 +76,7 @@
   width: 100vw;
 }
 
+
 @media screen and (max-width: 640px) {
   .my-image {
     text-align: left;

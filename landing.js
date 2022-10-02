@@ -69,3 +69,14 @@ window.addEventListener('scroll', () => {
  cards.forEach(card => {
   appearOnScroll.observe(card)
  })
+
+
+//  changing the background color on click of the icon
+
+// const color = document.getElementById('sun')
+// const html = document.querySelector("html")
+// // console.log(html)
+
+// color.addEventListener('click', event => {
+//   html.style.backgroundColor = 'white'
+// })
