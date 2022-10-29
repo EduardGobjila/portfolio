@@ -3,7 +3,7 @@
 let CountButtonHomeClicks = 1
  var links = document.getElementById("three-lines");
 
- links.addEventListener('click', event => {
+ links.addEventListener('click', () => {
    let link = document.getElementById('links')
   //  each click checks if it is a odd number or even
     CountButtonHomeClicks += 1
