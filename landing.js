@@ -47,7 +47,7 @@ window.addEventListener('scroll', () => {
 //  setting appear option on -300px on scrolling point
  const appearOptions = {
    threshold: 0,
-   rootMargin: "0px 0px -300px 0px"
+   rootMargin: "0px 0px -210px 0px"
  }
 
 //  setting new observer
