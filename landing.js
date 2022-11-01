@@ -89,7 +89,6 @@ color.addEventListener('click', () => {
 let counter = 1
 const colorMobile = document.getElementById('sun-mobile')
 colorMobile.addEventListener('click', () => {
-  console.log('hello world')
   counter += 1
   if (counter % 2 == 0) {
     html.style.backgroundColor = '#90afc5'
