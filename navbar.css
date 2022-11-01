@@ -41,10 +41,10 @@ nav {
   }
 
   #three-lines {
-    display: inline;
+    display: flex;
     font-size: 27px;
     margin-top: 12px;
-    margin-right: 12px;
+    margin-right: 0;
   }
   nav {
     height: 60px;

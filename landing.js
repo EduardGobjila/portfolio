@@ -1,7 +1,7 @@
 
 // Set the counter for clicks
 let CountButtonHomeClicks = 1
- var links = document.getElementById("three-lines");
+ var links = document.getElementById("burger");
 
  links.addEventListener('click', () => {
    let link = document.getElementById('links')
@@ -77,9 +77,21 @@ const color = document.getElementById('sun')
 const html = document.querySelector("html")
 // console.log(html)
 
-color.addEventListener('click', event => {
+color.addEventListener('click', () => {
   CountButtonHomeClicks += 1
   if (CountButtonHomeClicks % 2 == 0) {
+    html.style.backgroundColor = '#90afc5'
+  } else {
+    html.style.backgroundColor = null
+  }
+})
+
+let counter = 1
+const colorMobile = document.getElementById('sun-mobile')
+colorMobile.addEventListener('click', () => {
+  console.log('hello world')
+  counter += 1
+  if (counter % 2 == 0) {
     html.style.backgroundColor = '#90afc5'
   } else {
     html.style.backgroundColor = null
