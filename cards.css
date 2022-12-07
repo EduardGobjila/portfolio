@@ -78,6 +78,9 @@
 #tef {
   object-position: -500px;
 }
+#saver {
+  object-position: -100px;
+}
 
 @media screen and (max-width: 640px) {
   .my-image {
