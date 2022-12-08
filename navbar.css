@@ -49,12 +49,15 @@ nav {
   nav {
     height: 60px;
   }
+  #home {
+    padding-left: 120px;
+  }
 
   #links {
     font-size: 10px;
     background-color: white;
     margin-top: -12px;
-    text-align: start;
+    text-align: center;
   }
 
   #links a {
